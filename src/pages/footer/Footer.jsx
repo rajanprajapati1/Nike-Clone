@@ -44,27 +44,7 @@ export const Footer = () => {
                     </Flex>
                 </Center>
 
-                <Flex
-                    mt={'20px'}
-                    gap={'15px'}
-                    flexDirection={'row-reverse'}
-                    justifyContent={['center', 'right', 'right', 'right', 'right']}
-                    color={'gray'}
-                    mr={['0px', '30px', '80px', '80px', '80px']}
-                >
-                    <IconLink
-                        icon={MdOutlinePersonPin}
-                        link={"https://mohit-portfolio.vercel.app/"}
-                    />
-                    <IconLink
-                        icon={FaGithub}
-                        link={"https://github.com/m-sehrawat/"}
-                    />
-                    <IconLink
-                        icon={FaLinkedin}
-                        link={"https://www.linkedin.com/in/mohitsehrawat/"}
-                    />
-                </Flex>
+               
 
             </Grid>
         </Box>
