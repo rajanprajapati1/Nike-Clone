@@ -35,7 +35,10 @@ export const Navbar = () => {
             <Flex h={'60px'} flexDirection={"row"} px={'20px'} >
 
                 <Box w={'80px'}>
-                    <Link to={'/'}><Image src={nikeLogo} /></Link>
+                    <Link to={'/'}>
+{/*                         <Image src={nikeLogo} /> */}
+                        The Shoes Store
+                    </Link>
                 </Box>
 
                 <Spacer />
